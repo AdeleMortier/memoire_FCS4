@@ -1,10 +1,11 @@
 \documentclass[french]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{left=20mm, right=20mm, top=20mm, bottom=25mm}
 \usepackage{float}
 \usepackage{lmodern}
 \usepackage{graphicx}
-\usepackage[a4paper]{geometry}
 \usepackage{csquotes}
 \usepackage[style=authoryear,backend=biber]{biblatex}
 \usepackage[french]{babel}
@@ -30,7 +31,7 @@
 			
 			\subsection{Épigénétique et mémoire}
 			
-				On a vu que la méthylation était un une caractéristique du génotype à la fois acquise et transmissible. Mais quel est le lien entre la méthylation et la mémoire ou l'histoire d'un individu? Des études récentes (\cite{vaiserman2017}) on montré que la méthylation pouvait être déclenchée par des facteurs environnementaux bien précis; en particulier, les situations de stress intense, ou des conditions de vie particulièrement difficiles (manque de nourriture, manque de sommeil). Or, tout porte à croire que ces situations sont corrélées avec des souvenirs très forts, des souvenirs traumatiques. Ainsi, les traumatismes subis par un individus au cours de sa vie pourraient laisser des marques durables chez ses enfants, sous forme épigénétique.
+				On a vu que la méthylation était une caractéristique du génotype à la fois acquise et transmissible. Mais quel est le lien entre la méthylation et la mémoire ou l'histoire d'un individu? Des études récentes (\cite{vaiserman2017,meaney2005}) on montré que la méthylation pouvait être déclenchée par des facteurs environnementaux bien précis; en particulier, les situations de stress intense, ou des conditions de vie particulièrement difficiles (manque de nourriture, manque de sommeil). Or, tout porte à croire que ces situations sont corrélées avec des souvenirs souvenirs traumatiques. Ainsi, les traumatismes subis par un individus au cours de sa vie pourraient laisser des marques durables chez ses enfants, sous forme épigénétique.
 			
 			\subsection{Bilan}
 				L'épigénétique est un mécanisme susceptible de transmettre les stigmates d'un évènement (souvent délétère) d'un parent à son enfant. Les facteurs épigénétiques sont aussi très liés aux facteurs développementaux que nous allons étudier dans la section suivante. En effet, les modifications épigénétiques peuvent être déclenchées durant le développement du fœtus sous l'effet de l'environnement, sans être directement héritées. Cependant, il faut bien être conscient que la ``mémoire épigénétique'' est une mémoire d'extrêmement bas niveau. Deux individus partageant cette ``mémoire'' ne partageront ni leurs souvenirs épisodiques, ni leurs souvenirs sémantiques, ni leurs rêves, etc. Ils ne partageront qu'un ensemble de prédispositions pour certaines affections pouvant faire intervenir la mémoire. La relation est donc assez ténue. Nous reviendrons plus amplement sur le rôle de l'épigénétique dans le contrôle inhibiteur de la mémoire à la Section \ref{liens}.
@@ -73,13 +74,14 @@
 			\subsection{Mémoire et stress}\label{stress}
 				Outre les perceptions, la mère et son bébé sont susceptibles de partager des émotions, en particulier le stress. On parle dans de cas de \textit{fetal programming}. Le stress maternel, au travers du cortisol, peut:
 				\begin{itemize}
-					\item modifier l'expression des gènes du fœtus \footnote{ce qui peut constituer un cas hybride d'héritage du stress au niveau épigénétique};
+					\item modifier l'expression des gènes du fœtus \footnote{ce qui établit un lien entre environnement durant le développement et épigénétique};
 					\item modifier le niveau de stress du fœtus.
 				\end{itemize} \vspace{3mm}
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=200px]{../images/hpa_axis.png}
-					\caption{Axe hypothalamus-hypophyse-cortex surrénal, impliqué dans les réactions de stress et la formation de souvenirs ``à long terme'', liés à l'évènement déclencheur du stress. Le produit final de ce mécanisme est le cortisol, l'``hormone du stress''. Les individus atteint de PTSD ont généralement un taux de cortisol plus bas que la moyenne, ce qui est le symptôme d'un défaut dans la régulation de cet axe.}
+					\caption{Axe hypothalamus-hypophyse-cortex surrénal, impliqué dans les réactions de stress et la formation de souvenirs ``à long terme'', liés à l'évènement déclencheur du stress. Le produit final de ce mécanisme est le cortisol, l'``hormone du stress''. Les individus atteint de PTSD ont généralement un taux de cortisol plus bas que la moyenne, ce qui  peut paraître étonnant. Cela est en fait le symptôme d'un défaut dans la régulation de cet axe.}
+					\label{fig:hpa}
 				\end{figure}
 				\cite{baibazarova2013} étudient ainsi de façon longitudinale les liens entre le stress de la mère et celui de l'enfant\footnote{les facteurs épigénétiques ne sont pas étudiés, même s'ils peuvent entrer en ligne de compte dans les résultats}. Sont comparés le taux de cortisol (de la mère, du liquide amniotique), le stress subjectif ressenti par la mère, la santé du nouveau-né (son poids, son âge gestationnel), et son tempérament ultérieur (à 3 mois, évalué par sa mère\footnote{ce qui n'est pas tout à fait objectif, car il pourrait exister une corrélation entre le stress de la mère et son interprétation du tempérament de l'enfant}). Dans le tempérament, la peur face à des situations inattendues ou nouvelles, ainsi que l'inconfort dans des situations de contrainte sont évalués. Un stress élevé pendant la grossesse, traduit par des niveaux de cortisol élevés, est susceptible d'affecter le développement physique, neuronal et cognitif de l'enfant. D'importantes corrélations ont de fait été trouvées:
 				\begin{itemize}
@@ -96,7 +98,7 @@
 			
 			\subsection{Bilan}
 				Les souvenirs dont nous avons parlé dans cette partie sont des souvenirs d'assez bas niveau, de type sensoriel et émotionnel. Ils sont appris de façon inconsciente par le fœtus, et remémorés de façon également inconsciente, voire réflexe. En particulier, l'enfant ne parviendra pas à élucider la \textit{source} du souvenir. Cela est bien sûr à mettre en relation avec le fait que le cerveau du fœtus et de l'enfant n'est pas assez développé pour garantir une conservation durable et une sémantisation des traces mémorielles (``amnésie infantile'').\\
-				Les souvenirs fœtaux n'ont par ailleurs pas une durabilité très attestée. Celle-ci dépend du stimulus considéré. Mais peu d'études traitant des préférences sensorielles et du stress proposent un \textit{design} longitudinal censé valider la conservation des caractères acquis \textit{in utero} durant l'enfance et l'adolescence. Cette volatilité des souvenirs du fœtus pourrait constituer une limite de ce type de mémoire\footnote{ même si bien sûr, on peut imaginer qu'une comportement initié durant la petite-enfance puisse être renforcé par exposition répétée au même stimulus pendant l'enfance et l'adolescence. Cela pourrait provoquer un effet boule de neige, par enrichissement et renforcement du souvenir initial par des souvenirs postérieurs}.
+				Les souvenirs fœtaux n'ont par ailleurs pas une durabilité très attestée. Celle-ci dépend du stimulus considéré. Mais peu d'études traitant des préférences sensorielles et du stress proposent un \textit{design} longitudinal censé valider la conservation des caractères acquis \textit{in utero} durant l'enfance et l'adolescence. Cette volatilité des souvenirs du fœtus pourrait constituer une limite de ce type de mémoire\footnote{ même si bien sûr, on peut imaginer qu'une comportement initié durant la petite-enfance puisse être renforcé par exposition répétée au même stimulus pendant l'enfance et l'adolescence. Cela pourrait provoquer un effet ``boule de neige'' -- un enrichissement et renforcement du souvenir initial par des souvenirs postérieurs}.
 				
 		\section{Niveau socio-historique : une mémoire sémantisée et partagée}\label{socio}
 			Après la naissance, l'enfant arrive dans une famille avec sa propre histoire, ses propres habitudes. Ses parents et les autres membres de la famille ont pour rôle de lui transmettre toutes ces informations de façon implicite ou explicite, ceci afin que l'enfant puisse s'intégrer au mieux dans le groupe. Dans cette section, nous nous intéresserons donc aux traces que laisse le passé d'une famille sur ses membres. L'angle adopté sera essentiellement sociologique.
@@ -107,12 +109,13 @@
 			Outre l'homogénéisation, la mémoire familiale fait aussi l'objet d'une agrégation des souvenirs, en particulier des souvenirs épisodiques. Ceux-ci sont composés pour ne former plus qu'un seul souvenir, hybride, prototypique et hautement sémantisé. C'est le cas notamment des ``rituels'' familiaux (fêtes, rassemblements...). La mémoire familiale n'est donc pas linéaire, elle procède par couches successives et allées-venues\footnote{cf. également la notion bergsonienne de durée, qui se rapproche de cette interprétation... \cite[p.~5]{bergson1908}}. Chaque rappel du souvenir contribue à l'enrichir, à le rendre encore plus spécial, voire mythique\footnote{``[les souvenirs] se sont grossis de tout ce qui précède, et ils sont déjà gros de tout ce qui suit. A mesure qu'on s'y reporte plus souvent, qu'on y réfléchit davantage, loin de se simplifier, ils concentrent en eux plus de réalité [...]'' \cite[p.~114]{halbwachs1925}}.
 
 		\subsection{Formes et fonctions de la mémoire familiale}\label{formefonc}
+			\subsubsection{Formes}
 			La mémoire familiale peu se définir par ses formes et ses fonctions. \cite{muxel2012} insiste ainsi sur les différents degrés de mémoire, et l'inscription de la mémoire familiale dans un jeu de ``poupées russes'':
 			\begin{itemize}
-				\item la mémoire sensorielle est très intime, peu contrôlée (cf. mémoire involontaire proustienne), très peu sémantisée;
-				\item la mémoire physique est une mémoire des corps et des comportements (cf. également \cite[p.~121]{halbwachs1925});
-				\item les traces d'évènements constituent une mémoire fixée sur des supports (photographies, films...); elle est commune, arbitraire, directement partagée;
-				\item la mémoire familiale à part entière est mémoire sémantisée (histoires, mythes...), très largement partagée (genre de \textit{common ground} mémoriel), avec une forte cohérence.
+				\item la ``mémoire sensorielle'' est très intime, peu contrôlée, très peu sémantisée;
+				\item la ``mémoire physique'' est une mémoire des corps et des comportements (cf. également \cite[p.~121]{halbwachs1925});
+				\item les ``traces d'évènements'' constituent une mémoire fixée sur des supports (photographies, films...); elle est commune, arbitraire, directement partagée (sans médiation);
+				\item la ``mémoire familiale'' à part entière est une mémoire sémantisée (histoires, mythes...), très largement partagée (genre de \textit{common ground} mémoriel), avec une forte cohérence.
 			\end{itemize}
 			\begin{figure}[H]
 			\centering
@@ -141,30 +144,34 @@
 			}
 			\caption{Différents niveaux de mémoire selon \cite{muxel2012}}
 		\end{figure}
-			Bien sûr, ces dimensions entretiennent des liens. La mémoire familiale ravive et modifie certains souvenirs personnels. Elle en inhibe d'autres. Plus précisément, la mémoire familiale aurait trois fonctions:
-			\begin{itemize}
-				\item transmission
-				\item reviviscence
-				\item réflexivité
-			\end{itemize}
+	\subsubsection{Fonctions}
+			Bien sûr, les dimensions que nous avons énumérées entretiennent des liens. La mémoire familiale ravive et modifie certains souvenirs personnels. Elle en inhibe d'autres. Plus précisément, la mémoire familiale aurait trois fonctions: transmission, reviviscence et réflexivité.\\
+			
 			La fonction de transmission permet au groupe familial de s'éprouver identique à lui-même dans la succession du temps, tout en garantissant le sentiment d'appartenance des individus à ce même groupe. Comme à l'échelle de l'individu, les souvenirs qui ne sont pas cohérents avec l'identité familiale sont oubliés; ceux qui renforcent cette identité sont ressassés. Parmi les souvenirs transmis, on compte notamment les souvenirs liés aux origines du groupe, les souvenirs liés aux normes (sociales, comportementales) que le groupe s'est donné (cf. également \cite[p.~110-111]{halbwachs1925}), les souvenirs liés aux éléments marquants vécus par le groupe (arrivée d'un nouveau membre \cite[p.~121]{halbwachs1925}, décès, évènement historique à plus large portée...).\\
+			
 			La fonction de reviviscence est ancrée dans le présent; elle implique la résurgence puissante et inattendue de souvenirs familiaux (souvenirs d'enfance...). Cette fonction comporte une composante épisodique (pour le contenu) et sensorielle (pour les ``déclencheurs'').\\
+			
 			La fonction réflexive est prospective: elle est tournée vers le futur. Elle consiste en une remise à plat du passé (d'où est-ce que je viens?) afin de préparer le futur (où est-ce que je vais?). Il s'agit de faire le bilan. Les processus contribuant à cette fonction sont aussi liés à la théorie de l'esprit, dans la mesure où il faut se représenter, soi et les autres, dans le passé pour mieux se projeter dans l'avenir. \\
 			
 			Enfin, \cite{muxel2012} remarque que la mémoire familiale laisse une place importante à l'oubli. L'oubli est en effet nécessaire dans la phase de ``négociation'' des souvenirs. L'oubli permet la cohérence. Mais le compromis et l'oubli posent un problème plus vaste, qui est celui de la notion de vérité inhérente aux faits. Faut-il conserver ses souvenirs tels quels car ils nous semblent plus ``vrais'', ou les troquer pour des mythes familiaux, qui coïncident peut-être moins avec la réalité, mais qui sont peut-être plus facile à porter? Nous verrons dans section suivante qu'il n'est pas forcément facile de répondre à cette question.
 			
 	
 		\subsection{Bilan}
-			On constate que les schémas propres à la mémoire autobiographique de l'individu se retrouvent à l'échelle de la famille. La famille est capable de se souvenir et groupe, de sémantiser des épisodes vécus, de créer des mythes, des stéréotypes ou des histoires qui se transmettent comme un patrimoine, d'homogénéiser les souvenirs pour conserver une identité propre, d'oublier pour se protéger. On peut aussi remarquer que les souvenirs se transmettent et ``mutent'' comme le feraient les gènes. La mémoire familiale est donc complexe et va sans doute l'être encore plus dans les décennies à venir, compte tenu des mutations importantes opérant sur la notion même de famille : familles mono- ou homo- parentales, familles recomposées, diasporas ``interconnectées''\footnote{on pense notamment à la communication par messagerie et par les réseaux sociaux, qui semble se développer au sein de la famille entre ses membres éloignés -- l'éloignement pouvant être générationnel ou spatial.}... Aussi, la conception traditionnelle de la parenté, qui se recoupait avec celle de génétique (``liens de sang''), sera sans doute de moins en moins répandue.
+			On constate que les schémas propres à la mémoire autobiographique de l'individu se retrouvent à l'échelle de la famille. La famille est capable de se souvenir et groupe, de sémantiser des épisodes vécus, de créer des mythes, des stéréotypes ou des histoires qui se transmettent comme un patrimoine, d'homogénéiser les souvenirs pour conserver une identité propre, d'oublier pour se protéger. On peut aussi remarquer que les souvenirs se transmettent et ``mutent'' comme le feraient les gènes. La mémoire familiale est donc complexe et va sans doute l'être encore plus dans les décennies à venir, compte tenu des modifications importantes opérant sur la notion même de famille : familles mono- ou homo- parentales, familles recomposées, diasporas ``interconnectées''\footnote{on pense notamment à la communication par messagerie et par les réseaux sociaux, qui semble se développer au sein de la famille entre ses membres éloignés -- l'éloignement pouvant être générationnel ou spatial.}... Aussi, la conception traditionnelle de la parenté, qui se recoupait avec celle de génétique (``liens de sang''), sera sans doute de moins en moins répandue.
 		
 	\section{Des liens entre ces trois dimensions}\label{liens}
 		\subsection{Un exemple : le traumatisme}
-			Le cas des souvenirs traumatiques illustre bien l'interconnexion qui peut exister entre les trois niveaux d'héritabilité de la mémoire que nous avons évoqués dans la première section. Dans cette sous-section, nous traiterons le cas de la mémoire de l'Holocauste à tous ces niveaux.
+			Le cas des souvenirs traumatiques illustre bien l'interconnexion qui peut exister entre les trois niveaux d'héritabilité de la mémoire que nous avons évoqués dans la première section. Dans cette sous-section, nous traiterons le cas de la mémoire de l'Holocauste.
 			\subsubsection{Au niveau génétique}
-				Le traumatisme de l'Holocauste et le stress produit peuvent se retrouver au niveau transgénérationnel dans le génomes de descendants de survivants. Dans une étude très récente, \cite{yehuda2016} se sont intéressés au gène FKBP5. Ce gène code en effet pour la protéine de même nom, qui interagit avec les récepteurs aux glucocorticoïdes, et joue donc un rôle indirect dans la régulation de l'axe HPA. En particulier, la méthylation des ilôts CpG du gène FKBP5 a été mesurée sur une population de survivants et sur leur descendance, ainsi que sur une population contrôle (parents et enfants, mêmes caractéristiques démographiques). \cite{yehuda2016} ont notamment montré que les niveaux de méthylation chez les survivants de l'Holocauste étaient corrélés aux niveaux de méthylation des enfants. Plus précisément, les gènes parentaux étaient caractérisés par un niveau de méthylation plus fort que les contrôles, alors que les gènes des descendants étaient caractérisés par un niveau de méthylation plus faible que les contrôles.\\
+				Le traumatisme de l'Holocauste et le stress produit peuvent se retrouver au niveau transgénérationnel dans le génomes de descendants de survivants. Dans une étude très récente, \cite{yehuda2016} se sont intéressés au gène FKBP5. Ce gène code en effet pour la protéine de même nom, qui interagit avec les récepteurs aux glucocorticoïdes, et joue donc un rôle indirect dans la régulation de l'axe HPA (cf. Figure \ref{fig:hpa}). En particulier, la méthylation des ilôts CpG du gène FKBP5 a été mesurée sur une population de survivants et sur leur descendance, ainsi que sur une population contrôle (parents et enfants, mêmes caractéristiques démographiques). \cite{yehuda2016} ont notamment montré que les niveaux de méthylation chez les survivants de l'Holocauste étaient corrélés aux niveaux de méthylation des enfants. Plus précisément, les gènes parentaux étaient caractérisés par un niveau de méthylation plus fort que les contrôles, alors que les gènes des descendants étaient caractérisés par un niveau de méthylation plus faible que les contrôles.\\
 				
 				Dans le même domaine, une autre étude toujours menée sur des survivants de l'Holocauste (\cite{yehuda2014}) s'intéresse à la relation entre le phénotype des parents (en particulier, la présence d'un trouble de stress post traumatique -- PTSD) et l'épigénétique de leurs enfants, nés après la période traumatique. Un autre gène très impliqué dans la régulation de l'axe HPA\footnote{on rappelle que les dysfonctionnements de l'axe HPA sont considérés comme une des causes possible du PTSD} était au centre de l'étude: le gène NR3C1 (et son promoteur au niveau de l'exon 1$_F$). L'expression de ce gène est directement liée à la synthèse des récepteurs aux glucocorticoïdes, et donc à la régulation du cortisol\footnote{le cortisol est une variété de glucocorticoïde}. Les auteurs ont mis en évidence un effet différentiel du PTSD maternel et paternel sur la méthylation du promoteur de NR3C1 chez les enfants. En effet, les niveaux de méthylation sont plus forts lorsque le père, mais pas la mère souffre de PTSD; alors que les niveaux de méthylation sont plus bas lorsque les deux parents sont touchés. Cela est le signe que la ``transmission'' épigénétique du PTSD paternel est modérée par le PTSD maternel; et par conséquent, c'est surtout le PTSD maternel qui détermine la susceptibilité au PTSD chez l'enfant.\\
 				Par ailleurs, il a été montré que ces mesures de méthylation corrélaient avec une vulnérabilité des enfants aux troubles psychiatriques. Les enfants ayant au moins un parent affecté par le PTSD étaient plus sujets à des problèmes d'anxiété ou de dépression au cours de leur vie que les enfants sans parent PTSD. De plus, le PTSD maternel et le PTSD paternel ont donné lieu une fois de plus à des diagnostics différentiés. Le PTSD maternel était associé à l'anxiété et la dépression; alors que le PTSD paternel était associé à la présence de traumatisme dans l'enfance et plus de difficultés à moduler son ``style d'attachement''\footnote{cela est à mettre en relation avec la théorie de l'attachement chez l'enfant. Il existe 4 ``styles'' d'attachement: sécure, anxieux-soucieux, distant-évitant, craintif-évitant.}. Cette étude montre donc qu'au delà de l'épigénétique, les répercussions d'un traumatisme parental chez l'enfant peuvent être phénotypiques.
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=300px]{../images/epi_hpa.png}
+					\caption{Schéma récapitulatif des actions complexes des gènes NR3C1 et FKBP5 sur l'axe HPA dans le cas du PTSD (adapté de \cite{yehuda2013}, rouge=corrélation négative, vert=corrélation positive)}
+				\end{figure}
 
 		\subsubsection{Niveau développemental}
 			Beaucoup d'études s'intéressent au ``fetal programming'' dans un environnement adverse (en particulier, en présence de stress); mais peu se sont penchées sur le cas très précis des survivants de l'Holocauste. Cela est du au fait que, pour contrôler les influences de l'environnement post-natal, les études doivent être menées peu après (ou même pendant) la naissance, ce qui est désormais impossible dans le cas de l'Holocauste. Mais il est très probable que la Seconde Guerre mondiale, comme toute autre situation stressante, affecte le développement des enfants à naître. Dans une étude pilote, \cite{bercovich2014} ont ainsi comparé les statistiques sanitaires d'une cohorte de 70 Juifs nés dans des pays occupés entre 1940 et 1945, avec les statistiques d'une population contrôle. Ils ont conclu que le groupe d'individus exposés à la guerre \textit{in utero} avait notamment plus de risques de développer des maladies cardiovasculaires, de l'hypertension, des cancers. Ce groupe était aussi plus susceptible d'être touché par l'anxiété et la dépression. Cela dit, il est difficile de savoir si ces effets sont réellement dus à des facteurs développementaux ou plutôt à l'environnement de l'enfant après sa naissance. De plus, les troubles psychiatriques n'étaient pas le sujet central de l'étude.
@@ -189,6 +196,7 @@
 				\item une corrélation entre un sentiment de culpabilité chez les ES\footnote{alors même qu'ils ne sont pas fautifs} et leur perception d'une vulnérabilité chez les SH -- ce qui tend à montrer que les ES ont intériorisé et tiennent compte du traumatisme de leurs parents;
 				\item une absence de corrélation entre la colère des SH et la colère chez les ES -- ce tend à montrer que les ES ne réagissent pas à la colère pour ménager leurs parents.
 			\end{itemize}\vspace{3mm}
+			D'après \cite{fossion2003}, les ES sont plus sujets au PTSD bien sûr, mais aussi à des problèmes d'individuation, d'estime de soi, et des problèmes d'ordre relationnel (en particulier pour les relations intimes).\\
 			
 			Dans un tel contexte, les PES trouvent peu de place pour s'exprimer, et sont susceptibles de perdre leurs repères. Pour remédier à cela, \cite{fossion2003} ont proposé une thérapie basée sur la communication entre grand-parents et petit-enfant, pour rétablir la transmission de la mémoire familiale et la cohérence du groupe. Une dichotomie est établie entre ce qu'ils appellent les ``souvenirs de vie'' liés à l'Holocauste (en rapport avec la vie et la survie avant et après le traumatisme) et les ``souvenirs de mort'' (très négatifs, source du traumatisme). Les grand-parents sont ainsi libres de transmettre les souvenirs de vie, mais aussi libres de garder pour eux les souvenirs de mort. Avec cette thérapie \cite{fossion2003} permettent donc un renouveau du souvenir au niveau transgénérationnel en ``sautant une génération''. Des souvenirs inhibés par les grand-parents pour se protéger eux-mêmes et leurs enfants, aident 50 ans plus tard les petits-enfants à se resituer au sein de leur famille.
 			\begin{figure}[H]
@@ -201,14 +209,45 @@
 			
 		
 			
-		\subsection{Critique}
-			enetique et developpement très liés par ceque l'epigenetique peut etre declenchee in utero, lepigenetique a des correlats au niveau des hormones qui donc jouent au niveau du developpement. Tout est lie a l'ex hpa
-			socail plus différent, plus variable
+		\subsection{Critique générale et conclusion}
+			La mémoire permet d'enregistrer des informations venant d'expériences et d'événements divers, de les conserver et de les restituer. Cette définition s'applique à nos trois ``types'' de mémoire, bien que de façon un peu différente:
+			\begin{table}[H]
+				\centering
+				\begin{tabular}{c|c|c|c}
+					& Mémoire épigénétique & Mémoire foetale & Mémoire familiale \\ \hline
+					Enregistrement & dans l'épigénome & dans le cerveau & \begin{minipage}{.25\textwidth}\vspace{2mm}
+						dans l'histoire familiale:\\
+						 -- consciences de ses membres\\
+						 -- supports physiques\\
+					\end{minipage} \\ \hline
+					Conservation & par mitose et meïose & \begin{minipage}{.25\textwidth}
+						par renforcement de l'apprentissage
+					\end{minipage} & \begin{minipage}{.25\textwidth}\vspace{2mm}
+						par transmission:\\
+						-- aux nouveaux membres\\
+						-- histoires, anecdotes, rituels\\
+						par homogénéisation\vspace{2mm}
+					\end{minipage} \\ \hline
+					Restitution & \begin{minipage}{.25\textwidth}
+						sur le phénotype ou dans le métabolisme
+					\end{minipage}&  \begin{minipage}{.25\textwidth}\vspace{2mm}
+						par répétition:\\
+						-- mêmes comportements\\
+						-- mêmes tendances
+					\end{minipage}&  par ressassement 
+				\end{tabular}
+				\caption{Tableau récapitulatif des différents types de mémoire liés à la filiation, et de leur caractéristiques}
+			\end{table}
+
+			Les deux premiers types de mémoire que nous avons étudiés (mémoire épigénétique et mémoire fœtale) concernent la mémoire au sens très large: on parle ici plus d'une conservation de prédispositions, ou de préférences, d'une génération à l'autre.  Il est difficile d'aller à l'encontre de ces ``tendances'', dans la mesure où elles demeurent grandement inconscientes, et profondément ancrées (``imprimées'') en nous. Dans le cas du traumatisme par exemple, il est difficile de réguler de façon pharmacologique l'axe HPA lorsque les gènes liés à cet axe s'expriment mal. Par ailleurs, ces deux modes de transmission de la mémoire sont très liés entre eux, et certaines études ont pour but précis de les désintriquer\footnote{l'idée est par exemple de comparer les bébés portés par leur mère biologique aux bébés portés par une mère ayant bénéficié d'une FIV. Si les résultats sont les mêmes, alors les facteurs environnementaux priment sur les facteurs génétiques; sinon, ce sont les facteurs (épi)génétiques qui s'avèrent prépondérants}.\\
+			Pour autant, cet héritage n'est sans doute pas excessivement robuste car il dépend aussi en grande partie de l'environnement. Si l'environnement se montre plus clément pour les générations suivantes, les traces épigénétiques sont susceptibles de disparaître. De même, les préférences d'un individu acquises \textit{in utero} peuvent sans doute beaucoup changer au cours de la vie, en fonction de ce qu'il choisit d'expérimenter et des pressions qu'il subit\footnote{à ce sujet, il existe toute une littérature sur les liens entre exposition à des saveurs \textit{in utero} et neophobie}.\\
 			
-			genetique = très physiologique on peut se demander si c'est vraiment de la memoire. determine une porpension mais pas une détermination
-			developpemernt idem problme pour tester le fait que c'est du au developpement et pas au contexte apres aussi durabilité des effets
+			D'un autre côté, la mémoire sociale liée à la famille se rapproche beaucoup plus de l'idée que l'on se fait de la mémoire, notamment à l'échelle de l'individu. La mémoire des membres d'une même famille n'est pas imperméable; elle dépend des souvenirs des autres et s'enrichit à leur contact. Dans le cadre de la mémoire traumatique, la présence au sein de la famille d'un individu atteint de troubles comme le PTSD peut altérer les relations interpersonnelles entre les membres, créer une atmosphère délétère de malaise et de non-dit.\\
+			Contrairement à la mémoire de plus bas niveau, la mémoire sociale et familiale est hautement sémantisée et peut perdurer sur plusieurs générations; même si elle est sujette à de nombreuses variations. De plus, cette mémoire s'affranchit des ``liens de sang'', elle se construit à la faveur des interactions. Cela dit, une limite des études liées à la transmission de cette mémoire est qu'elles sont souvent très qualitatives et difficilement généralisables à un groupe où une classe sociale entière. Mais peut-être est-ce là aussi le propre de la mémoire d'une famille; ce qui lui permet de se dissocier des autres familles, comme le ferait un individu par rapport à ses pairs.\\
 			
-			social pas très bien controle en général assez qualitatif
+			Pour conclure, quels seraient les leviers permettant d'agir sur la transmission ou non de la mémoire? Il apparaît bien évidemment difficile d'agir au niveau (épi)génétique, et particulier sur l'humain. En revanche, il est déjà plus facile de contrôler l'environnement pré-natal et post-natal, en assurant au fœtus des stimuli variés et en évitant les situations défavorables à son développement (stress, mauvaise alimentation, prise d'alcool etc.). Bien sûr, il n'est pas non plus nécessaire de tomber dans l'excès inverse\footnote{et de penser qu'un bébé à qui l'on lit du Kant deviendra grand philosophe, ou à qui l'on fait écouter du Mozart deviendra grand musicien}, dans la mesure où les capacité cognitives du fœtus et ses facultés de remémoration demeurent limitées. A l'échelle du groupe enfin, la thérapie individuelle ou collective peut être une manière de faire resurgir des souvenirs de façon contrôlée (cf. \cite{fossion2003}) ou d'en faire oublier d'autres (cf. paradigme think-no think).
+			
+			
 			
 	\newpage
 	\defbibheading{maingeno}{\textbf{Génétique}}
