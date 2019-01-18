@@ -1,0 +1,48 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {french}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Niveau cellulaire : une m\IeC {\'e}moire ``g\IeC {\'e}n\IeC {\'e}tique''}{2}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Qu'est-ce que l'\IeC {\'e}pig\IeC {\'e}n\IeC {\'e}tique}{2}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Transmission de la m\IeC {\'e}moire \IeC {\'e}pig\IeC {\'e}n\IeC {\'e}tique}{3}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}Bilan}{3}{subsection.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Niveau d\IeC {\'e}veloppemental : une m\IeC {\'e}moire implicite}{4}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}M\IeC {\'e}moire et perception}{4}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}M\IeC {\'e}moire des go\IeC {\^u}t et des odeurs}{4}{subsubsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.2}M\IeC {\'e}moire des sons}{5}{subsubsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}M\IeC {\'e}moire et stress}{5}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Bilan}{7}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Niveau socio-historique : une m\IeC {\'e}moire s\IeC {\'e}mantis\IeC {\'e}e et partag\IeC {\'e}e}{7}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}La m\IeC {\'e}moire familiale comme m\IeC {\'e}moire collective}{7}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Formes et fonctions de la m\IeC {\'e}moire familiale}{8}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Formes}{8}{subsubsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2}Fonctions}{8}{subsubsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Bilan}{9}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Des liens entre ces trois dimensions}{9}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Un exemple : le traumatisme}{9}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Le traumatisme et ses manifestations}{9}{subsubsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}Au niveau g\IeC {\'e}n\IeC {\'e}tique}{9}{subsubsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3}Au niveau d\IeC {\'e}veloppemental}{10}{subsubsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.4}Au niveau socio-historique}{11}{subsubsection.4.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Critique g\IeC {\'e}n\IeC {\'e}rale et conclusion}{13}{subsection.4.2}
